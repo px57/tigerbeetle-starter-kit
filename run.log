@@ -1,0 +1,9 @@
+2026-06-24 16:20:07.987Z warning: a cluster id of 0 is reserved for testing and benchmarking, do not use in production
+2026-06-24 16:20:07.987Z warning: omit --cluster=0 to randomly generate a suitable id
+
+2026-06-24 16:20:07.988Z info(io): creating "tb_data.tigerbeetle"...
+2026-06-24 16:20:07.988Z error: PathAlreadyExists
+2026-06-24 16:20:07.989Z info(io): opening "tb_data.tigerbeetle"...
+thread 144951 panic: another process holds the data file lock
+Unable to dump stack trace: debug info stripped
+Aborted (core dumped)
